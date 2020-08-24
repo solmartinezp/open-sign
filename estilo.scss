@@ -1,0 +1,19 @@
+//The animations in the keyframes.scss file are commented out, but I put them there just in case you want the lights to blink intermittently without having to switch it on and off.
+
+@import '_open';
+@import '_switch';
+@import '_keyframes';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("darkbrickwall-1598230645630-2936.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

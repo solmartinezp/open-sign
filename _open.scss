@@ -1,0 +1,46 @@
+.sign {
+    background-color: transparent;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #66e0ed;
+    box-shadow: inset 1px 1px 30px #0300b8;
+    border-radius: 30px;
+    transition: all 0.1s linear;
+    animation: none;
+    // animation: sign 1s linear infinite;
+}
+
+h1 {
+    color: #f0b1ac;
+    text-shadow: 1px 1px 10px red;
+    font-family: 'Raleway', sans-serif;
+    font-size: 150px;
+    font-weight: 400;
+    border: 2px solid rgb(185, 221, 235);
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 1px 1px 30px #0000f0;
+    animation: none;
+    transition: all 0.1s linear;
+    // animation: h1 1s linear infinite;
+}
+
+.s2 {
+    position: absolute;
+    border: none;
+    box-shadow: none;
+    top: 0;
+    h1 {
+        border: none;
+        box-shadow: none;
+        text-shadow: 3px 3px 8px red;
+        animation: none;
+        transition: all 0.1s linear;
+        // animation: h12 1s linear infinite;
+    }
+}
+

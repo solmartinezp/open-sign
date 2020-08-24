@@ -1,0 +1,46 @@
+//In case you want the lights to blink intermittently!  
+
+@keyframes sign {
+    0% {
+        box-shadow: inset 1px 1px 30px rgb(54, 54, 54);
+        border: 1px solid  rgb(43, 42, 42);
+    }
+    100% {
+        box-shadow: inset 1px 1px 30px #0300b8;
+        border: 1px solid #66e0ed;
+    }
+    
+}
+
+@keyframes h1 {
+    0% {
+        text-shadow: 1px 1px 10px rgb(177, 176, 176);
+        color: rgb(54, 54, 54);
+        box-shadow:  1px 1px 30px rgb(54, 54, 54);
+        border: 1px solid  rgb(54, 54, 54);
+
+    }
+    100% {
+        color: #f0b1ac;
+        text-shadow: 1px 1px 10px red;
+        box-shadow: 1px 1px 30px #0000f0;
+        border: 1px solid rgb(185, 221, 235);
+       
+    }
+  
+}
+
+@keyframes h12 {
+    0% {
+        text-shadow: 1px 1px 10px rgb(177, 176, 176);
+        color: rgb(54, 54, 54);
+        border: 1px solid  rgb(54, 54, 54);
+    }
+    100% {
+        color: #f0b1ac;
+        text-shadow: 3px 3px 8px red;
+        border: 1px solid rgb(185, 221, 235);
+       
+    }
+    
+}
